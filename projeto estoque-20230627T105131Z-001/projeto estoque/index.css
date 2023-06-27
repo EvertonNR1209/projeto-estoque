@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+body{
+    background-image:linear-gradient(-90deg, rgb(15,15,15), #2d1b58, #28184e, #2d1b58,rgb(15,15,15));
+    margin-top:0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a{
+    text-decoration: inherit;
+    color: white;
+    text-align: center;
+}
+
+
+.container0{
+    display: grid;
+    grid-template-columns:0px 1fr;
+}
+
+#botaotop{
+    border: solid 1px #0e65a0;
+    border-width: 3px;
+    display:flex;
+    text-decoration: inherit; /* Remove os Hyperlinks */
+    padding: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#cabecalho{
+    margin-bottom: 5%;
+    background-color: rgba(15, 15, 15, 0.692);
+    
+}
+
+.tabelaform{
+   border: solid 1px white;
+   border: solid white;
+   justify-content: center;
+   display: grid;
+   border-radius: 15px;
+   background-image:linear-gradient(0deg, #1413139f, #2d1b58, #28184e, #2d1b58,#1413139f);
+   box-shadow: 0px 20px 30px 5px #0f0f0f;
+   margin-left: 30%;
+   margin-right: 30%;
+
+}
+
+#tituloform{
+    text-align:center;
+    padding:12px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    font-size: 22px;
+    color:white;
+    border: solid 3px #0e65a0;
+    border-radius:7px;
+}
+
+.tabelainterna{
+    color: white;
+    font-size:20px;
+    text-align: left;
+    width: 100%;
+}
+#iconeinserir{
+    width: 20px;
+    margin-right:10px;
+    margin-bottom:-3px;
+}
+
+.logotop{
+    display: flex;
+    align-items: center;
+}
+
+#topimg{
+    width: 120px;
+    height: 43px;
+}
+
+.botaocontainer{
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+    
+}
+
+.inputs{
+    border-radius: 8px;
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.botaofooter{
+    padding: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+label{
+    margin-bottom: 15px;
+    display: inline-block;
+}
+

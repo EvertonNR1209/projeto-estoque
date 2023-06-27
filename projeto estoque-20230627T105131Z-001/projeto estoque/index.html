@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title> Formulário</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+<div id="cabecalho">
+    <div class="container0">
+        <div class="logotop">
+            <img id="topimg" src="imagens/smart.png">
+        </div>
+        <div class="botaocontainer">
+            <a href='https://www.google.com.br/' id="botaotop"><img id='iconeinserir' src="imagens/seta.png">FORMULÁRIO DE ENTRADA</a>
+            <a href='https://www.google.com.br/' id="botaotop"><img id='iconeinserir' src='imagens/saida.png'>FORMULÁRIO DE SAÍDA</a>
+            <a href='https://www.google.com.br/' id="botaotop"><img id="iconeinserir" src="imagens/estoque.png">CONTROLE DE ESTOQUE</a>
+        </div>
+    </div>
+</div>
+</head>
+<body>
+    <div class="tabelaform">
+        <div class="tabelainterna">
+            <div id="tituloform">
+                <img src="imagens/formulario.png" id="iconeinserir">FORMULÁRIO DE ENTRADA
+            </div>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <form method="get" action="">
+                <div>
+                    <label for="numero_nota"> Número nota Fiscal: </label>
+                    <input type="text" class="inputs" id="numero_nota" name="numero_nota" placeholder="Digite o nº da nota fiscal"></input>
+                </div>
+                <div>
+                    <label for="categoria_produto"> Categoria do produto:</label>
+                    <select class="inputs" id="categoria_produto" name="categoria_produto" placeholder="Escolha a categoria do produto">
+                        <option aria-disabled>Selecione:</option>
+                        <option>Periféricos</option>
+                        <option>Notebooks</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nome_produto"> Nome do produto: </label>
+                    <input type="text" class="inputs" id="nome_produto" name="nome_produto" placeholder="Digite o nome do produto"></input>
+                </div>
+                <div>
+                    <label for="data_entrada"> Data de entrada: </label>
+                    <input type="date" class="inputs" id="data_entrada" name="data_entrada"></input>
+                </div>
+                <div class="botaofooter">
+                    <button type="submit" id="botaotop"> CADASTRAR</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
